@@ -1,0 +1,1073 @@
+<!DOCTYPE html><html class="smooth-scroll" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Guru Granite | Nature's Masterpiece, Reimagined</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Geist+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#690005",
+                        "primary-fixed": "#ffdea5",
+                        "error": "#ffb4ab",
+                        "error-container": "#93000a",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "tertiary-container": "#a7a5a5",
+                        "on-surface": "#e3e2e2",
+                        "inverse-on-surface": "#2f3031",
+                        "on-secondary": "#313030",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary": "#303030",
+                        "inverse-surface": "#e3e2e2",
+                        "surface-container": "#1f2020",
+                        "surface-tint": "#e9c176",
+                        "surface-container-low": "#1b1c1c",
+                        "inverse-primary": "#775a19",
+                        "on-secondary-fixed-variant": "#474746",
+                        "surface-dim": "#121414",
+                        "surface-container-high": "#292a2a",
+                        "secondary": "#c8c6c5",
+                        "tertiary": "#c8c6c5",
+                        "surface-variant": "#343535",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-primary": "#412d00",
+                        "on-primary-container": "#4e3700",
+                        "on-tertiary-container": "#3b3b3b",
+                        "secondary-fixed": "#e5e2e1",
+                        "secondary-container": "#474746",
+                        "primary": "#e9c176",
+                        "on-secondary-container": "#b7b5b4",
+                        "primary-container": "#c5a059",
+                        "outline": "#9a8f80",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "on-primary-fixed-variant": "#5d4201",
+                        "surface-bright": "#383939",
+                        "surface-container-highest": "#343535",
+                        "on-primary-fixed": "#261900",
+                        "background": "#121414",
+                        "tertiary-fixed": "#e4e2e1",
+                        "outline-variant": "#4e4639",
+                        "on-background": "#e3e2e2",
+                        "primary-fixed-dim": "#e9c176",
+                        "on-surface-variant": "#d1c5b4",
+                        "surface-container-lowest": "#0d0e0f",
+                        "surface": "#121414",
+                        "on-tertiary-fixed-variant": "#474746"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "64px",
+                        "stack-sm": "16px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "24px",
+                        "stack-md": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "gutter": "24px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Playfair Display"],
+                        "label-md": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "label-sm": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "display-lg": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "mono": ["Geist Mono", "monospace"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.03em", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .smooth-scroll { scroll-behavior: smooth; }
+        .parallax-wrapper { clip-path: inset(0); }
+        .parallax-bg {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 120%;
+            object-fit: cover;
+            z-index: 0;
+            will-change: transform;
+        }
+        .reveal-hover .reveal-content {
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .reveal-hover:hover .reveal-content {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        .reveal-hover .reveal-border {
+            opacity: 0;
+            transform: scale(0.98);
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .reveal-hover:hover .reveal-border {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        /* --- BRAND NEW & UPGRADED ANIMATIONS --- */
+        @media (prefers-reduced-motion: no-preference) {
+            .reveal-up {
+                opacity: 0;
+                transform: translateY(40px);
+                transition: opacity 0.8s cubic-bezier(0.215, 0.610, 0.355, 1),
+                            transform 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+            }
+            .reveal-up.is-visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .reveal-left {
+                opacity: 0;
+                transform: translateX(-40px);
+                transition: opacity 0.8s cubic-bezier(0.215, 0.610, 0.355, 1), transform 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+            }
+            .reveal-left.is-visible {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            .reveal-right {
+                opacity: 0;
+                transform: translateX(40px);
+                transition: opacity 0.8s cubic-bezier(0.215, 0.610, 0.355, 1), transform 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+            }
+            .reveal-right.is-visible {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            .reveal-zoom {
+                opacity: 0;
+                transform: scale(0.95);
+                transition: opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1), transform 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+            }
+            .reveal-zoom.is-visible {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            .hero-char {
+                display: inline-block;
+                opacity: 0;
+                transform: translateY(50px) rotate(2deg);
+                animation: advanced-text-reveal 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+            }
+        }
+
+        @keyframes advanced-text-reveal { 
+            to { 
+                opacity: 1; 
+                transform: translateY(0) rotate(0deg); 
+            } 
+        }
+
+        .animated-btn {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            transition: color 0.4s ease;
+        }
+        .animated-btn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 0; height: 100%;
+            background-color: rgb(233, 193, 118);
+            z-index: -1;
+            transition: width 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+        }
+        .animated-btn:hover::before {
+            width: 100%;
+        }
+
+        .img-ken-burns {
+            transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .img-container-kb:hover .img-ken-burns {
+            transform: scale(1.08);
+        }
+
+        .stat-item::after {
+            content: '';
+            position: absolute;
+            right: -12px;
+            top: 20%;
+            height: 60%;
+            width: 1px;
+            background: rgba(233, 193, 118, 0.3);
+        }
+        .stat-item:last-child::after { display: none; }
+
+        /* --- TERMINAL INDUSTRIES STYLING MOTIFS --- */
+        .dent-panel {
+            background: rgba(18, 20, 20, 0.55);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.6), 0 8px 32px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .dent-panel-inset {
+            background: rgba(13, 14, 15, 0.75);
+            box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.8), 0 1px 1px rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+        }
+        .technical-cross {
+            position: absolute;
+            font-family: 'Geist Mono', monospace;
+            font-size: 11px;
+            color: rgba(233, 193, 118, 0.35);
+            pointer-events: none;
+            user-select: none;
+        }
+        .glow-hover {
+            transition: all 0.4s ease;
+        }
+        .glow-hover:hover {
+            border-color: rgba(233, 193, 118, 0.55) !important;
+            box-shadow: 0 0 20px rgba(233, 193, 118, 0.15);
+        }
+
+        /* --- SHUTTER & LASER SCAN HEADING REVEAL SYSTEM --- */
+        .shutter-container {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+        .shutter-mask {
+            position: relative;
+            clip-path: inset(0 100% 0 0);
+            transition: clip-path 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+            display: inline-block;
+        }
+        .shutter-mask.revealed {
+            clip-path: inset(0 0 0 0);
+        }
+        .laser-line {
+            position: absolute;
+            top: -10%;
+            bottom: -10%;
+            width: 2.5px;
+            background: linear-gradient(to bottom, transparent, #e9c176 50%, transparent);
+            box-shadow: 0 0 8px #e9c176, 0 0 15px rgba(233, 193, 118, 0.8);
+            left: 0;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 20;
+        }
+        .shutter-mask.revealed + .laser-line {
+            animation: laser-sweep 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+        @keyframes laser-sweep {
+            0% { left: 0; opacity: 1; }
+            90% { opacity: 1; }
+            100% { left: 100%; opacity: 0; }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary/30 relative">
+
+<!-- Fullscreen Global Video Backdrop Engine -->
+<div class="fixed inset-0 w-full h-full z-0 pointer-events-none overflow-hidden bg-[#0d0e0f]" id="global-video-container">
+    <video id="global-bg-video" class="absolute inset-0 w-full h-full object-cover brightness-[0.2] transition-opacity duration-1000 opacity-100" autoplay loop muted playsinline>
+        <source src="./hero_loop.mp4" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 bg-gradient-to-b from-[#121414]/90 via-transparent to-[#121414] z-10"></div>
+</div>
+
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-background/50 backdrop-blur-md border-b border-white/5 transition-all duration-500 ease-in-out" id="navbar">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto animate-fade-in" id="navbar-inner">
+<a class="flex items-center gap-2 transform hover:scale-105 transition-transform duration-300" href="#">
+<span class="font-headline-md text-2xl text-on-surface uppercase tracking-tighter hidden sm:block">Guru Granite</span>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-label-md font-medium text-on-surface-variant hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:height-[2px] after:bg-primary hover:after:w-full after:transition-all after:duration-300" href="#collections">Collections</a>
+<a class="text-label-md font-medium text-on-surface-variant hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:height-[2px] after:bg-primary hover:after:w-full after:transition-all after:duration-300" href="#craftsmanship">Craftsmanship</a>
+<a class="text-label-md font-medium text-on-surface-variant hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:height-[2px] after:bg-primary hover:after:w-full after:transition-all after:duration-300" href="#spaces">Spaces</a>
+<a class="text-label-md font-medium text-on-surface-variant hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:height-[2px] after:bg-primary hover:after:w-full after:transition-all after:duration-300" href="#heritage">Our Story</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="inline-flex items-center justify-center bg-[#1b1c1c]/80 border border-white/10 text-primary font-label-md text-label-sm px-5 py-2.5 uppercase tracking-widest hover:bg-primary hover:text-on-primary transition-all duration-300 rounded" href="https://api.whatsapp.com/send?phone=919811782245">
+            WhatsApp Chat
+        </a>
+<button class="md:hidden flex items-center justify-center w-12 h-12 text-on-surface hover:bg-surface-variant/50 transition-colors" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+
+<!-- Mobile Drawer -->
+<div class="fixed inset-0 z-50 hidden" id="mobile-drawer">
+<div class="absolute inset-0 bg-background/80 backdrop-blur-sm transition-opacity duration-300" id="drawer-overlay"></div>
+<div class="absolute right-0 top-0 w-[300px] h-full bg-surface p-6 shadow-2xl flex flex-col gap-8 transform translate-x-full transition-transform duration-300" id="drawer-content">
+<div class="flex justify-between items-center">
+<span class="text-headline-md font-headline-md text-primary">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-on-surface hover:bg-surface-variant/50" id="drawer-close-btn">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<nav class="flex flex-col gap-6">
+<a class="text-body-lg font-medium text-on-surface-variant hover:text-primary transition-colors" href="#collections">Collections</a>
+<a class="text-body-lg font-medium text-on-surface-variant hover:text-primary transition-colors" href="#craftsmanship">Craftsmanship</a>
+<a class="text-body-lg font-medium text-on-surface-variant hover:text-primary transition-colors" href="#spaces">Spaces</a>
+<a class="text-body-lg font-medium text-on-surface-variant hover:text-primary transition-colors" href="#heritage">Our Story</a>
+</nav>
+<button class="w-full h-12 bg-primary text-on-primary text-label-md font-semibold transition-colors hover:bg-primary-container mt-auto">
+            Inquire Now
+        </button>
+</div>
+</div>
+
+<main class="relative z-10 bg-transparent">
+<!-- HeroSection -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden bg-transparent" id="hero" data-bg-video="./hero_loop.mp4">
+<div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto flex flex-col items-center gap-stack-md">
+<span class="text-label-md text-primary tracking-[0.2em] uppercase reveal-up font-mono">[ GEOLOGICAL MATRIX ARCHIVE ]</span>
+<div class="shutter-container">
+    <h1 class="text-display-lg font-display-lg text-on-surface leading-tight hidden md:block shutter-mask revealed" id="hero-title">
+        Nature's Finest
+    </h1>
+    <div class="laser-line"></div>
+</div>
+
+<h1 class="text-headline-lg-mobile font-headline-lg-mobile text-on-surface md:hidden reveal-up">Nature's Masterpiece, Reimagined</h1>
+<p class="text-body-lg text-on-surface-variant max-w-2xl mx-auto reveal-up" style="transition-delay: 0.4s;">
+            Sourced from pristine earth quarries, meticulously carved for architectural permanence. Experience the definitive collection of rare luxury stones.
+        </p>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center mt-4 reveal-up" style="transition-delay: 0.6s;">
+<a class="inline-flex items-center justify-center px-8 h-14 bg-primary text-on-primary text-label-md font-semibold transition-all duration-300 hover:bg-primary-container shadow-lg hover:scale-105" href="#collections">
+<span>Explore Collections</span>
+</a>
+<a class="inline-flex items-center justify-center px-8 h-14 border border-outline text-on-surface text-label-md font-semibold transition-all duration-300 hover:bg-surface-variant/40 animated-btn hover:text-background" href="#craftsmanship">
+<span>The Process</span>
+</a>
+</div>
+</div>
+<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 text-on-surface-variant/70 animate-bounce z-10">
+<span class="text-label-sm tracking-widest uppercase">Scroll</span>
+<span class="material-symbols-outlined font-light">arrow_downward</span>
+</div>
+</section>
+
+<!-- KeyMetrics / Stats -->
+<section class="bg-surface-container-low/40 border-t border-b border-white/5 py-16 backdrop-blur-sm" id="stats">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center md:text-left stat-item relative reveal-up">
+<p class="text-display-lg font-display-lg text-primary leading-none mb-2">25+</p>
+<p class="text-label-sm uppercase tracking-wider text-on-surface-variant">Years of Heritage</p>
+</div>
+<div class="text-center md:text-left stat-item relative reveal-up" style="transition-delay: 0.1s;">
+<p class="text-display-lg font-display-lg text-primary leading-none mb-2">140+</p>
+<p class="text-label-sm uppercase tracking-wider text-on-surface-variant">Rare Stone Variants</p>
+</div>
+<div class="text-center md:text-left stat-item relative reveal-up" style="transition-delay: 0.2s;">
+<p class="text-display-lg font-display-lg text-primary leading-none mb-2">60+</p>
+<p class="text-label-sm uppercase tracking-wider text-on-surface-variant">Countries Exported</p>
+</div>
+<div class="text-center md:text-left stat-item relative reveal-up" style="transition-delay: 0.3s;">
+<p class="text-display-lg font-display-lg text-primary leading-none mb-2">10k+</p>
+<p class="text-label-sm uppercase tracking-wider text-on-surface-variant">Masterpieces Completed</p>
+</div>
+</div>
+</section>
+
+<!-- ImageGrid / Featured Collections -->
+<section class="py-section-gap max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop bg-transparent" id="collections" data-bg-video="./polishing_loop.mp4">
+<div class="flex flex-col md:flex-row md:justify-between md:items-end gap-6 mb-stack-lg reveal-up">
+<div class="w-full md:w-auto">
+<span class="text-label-md text-primary tracking-wider uppercase block mb-2 font-mono">[ CURATED EARTH MATRIX ]</span>
+<div class="shutter-container">
+    <h2 class="text-headline-lg font-headline-lg text-on-surface shutter-mask">The Signature Slabs</h2>
+    <div class="laser-line"></div>
+</div>
+</div>
+<p class="text-body-md text-on-surface-variant max-w-md">
+            Each block selection is a unique freeze-frame of geologic time, curated for exceptional veining, structural integrity, and deep luster.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="group relative aspect-[3/4] overflow-hidden bg-[#1e2020]/20 backdrop-blur-md reveal-left img-container-kb rounded-lg border border-white/10 glow-hover">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+    <img alt="Imperial White Quartzite slab texture close up" class="absolute inset-0 w-full h-full object-cover img-ken-burns brightness-[0.7] group-hover:brightness-[0.5]" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=800&amp;q=80">
+    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+    <div class="absolute inset-0 p-8 flex flex-col justify-end gap-2 transform transition-transform duration-500 group-hover:translate-y-[-10px]">
+        <span class="text-label-sm text-primary uppercase tracking-widest font-mono">[ CATEGORY: QUARTZITE ]</span>
+        <h3 class="text-headline-md font-headline-md text-on-surface">Imperial White</h3>
+        <p class="text-body-md text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+            Luminous alpine crystal structures interwoven with subtle silver-grey quartz veins.
+        </p>
+    </div>
+</div>
+<!-- Card 2 -->
+<div class="group relative aspect-[3/4] overflow-hidden bg-[#1e2020]/20 backdrop-blur-md reveal-up img-container-kb rounded-lg border border-white/10 glow-hover" style="transition-delay: 0.1s;">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+    <img alt="Nero Absolute Granite polished luxury surface" class="absolute inset-0 w-full h-full object-cover img-ken-burns brightness-[0.7] group-hover:brightness-[0.5]" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=800&amp;q=80">
+    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+    <div class="absolute inset-0 p-8 flex flex-col justify-end gap-2 transform transition-transform duration-500 group-hover:translate-y-[-10px]">
+        <span class="text-label-sm text-primary uppercase tracking-widest font-mono">[ CATEGORY: GRANITE ]</span>
+        <h3 class="text-headline-md font-headline-md text-on-surface">Nero Absolute</h3>
+        <p class="text-body-md text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+            An infinite cosmic dark matrix exhibiting ultra-dense crystalline grain structures.
+        </p>
+    </div>
+</div>
+<!-- Card 3 -->
+<div class="group relative aspect-[3/4] overflow-hidden bg-[#1e2020]/20 backdrop-blur-md reveal-right img-container-kb rounded-lg border border-white/10 glow-hover" style="transition-delay: 0.2s;">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+    <img alt="Titanium Gold Granite deep golden veins" class="absolute inset-0 w-full h-full object-cover img-ken-burns brightness-[0.7] group-hover:brightness-[0.5]" src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&amp;fit=crop&amp;w=800&amp;q=80">
+    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+    <div class="absolute inset-0 p-8 flex flex-col justify-end gap-2 transform transition-transform duration-500 group-hover:translate-y-[-10px]">
+        <span class="text-label-sm text-primary uppercase tracking-widest font-mono">[ CATEGORY: EXOTIC ]</span>
+        <h3 class="text-headline-md font-headline-md text-on-surface">Titanium Gold</h3>
+        <p class="text-body-md text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+            Dramatic sweeping paths of intense amber gold and deep carbon-black veins.
+        </p>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Redesigned SplitSection / Craftsmanship (Terminal Industries Style) -->
+<section class="bg-transparent py-section-gap overflow-hidden relative border-t border-b border-white/5" id="craftsmanship" data-bg-video="./slicing_loop.mp4">
+    <!-- Grid corner crosses for the section -->
+    <span class="technical-cross top-4 left-margin-desktop text-xs">+</span>
+    <span class="technical-cross top-4 right-margin-desktop text-xs">+</span>
+    
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="mb-12 reveal-up flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div>
+                <span class="text-label-md text-primary tracking-wider uppercase block mb-2 font-mono">[ INTEGRATED PRODUCTION LIFECYCLE ]</span>
+                <div class="shutter-container">
+                    <h2 class="text-headline-lg font-headline-lg text-on-surface shutter-mask">Precision Craftsmanship</h2>
+                    <div class="laser-line"></div>
+                </div>
+            </div>
+            <p class="text-body-md text-on-surface-variant max-w-sm">
+                Track our exact industrial calibration pipeline from rough quarry block to mirror-polished luxury surface.
+            </p>
+        </div>
+        
+        <!-- Split Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            
+            <!-- Sticky Left Column: Video Terminal HUD -->
+            <div class="lg:col-span-6 sticky top-28 z-20">
+                <div class="relative bg-surface-container-high border border-white/10 rounded-xl overflow-hidden p-3 shadow-2xl group dent-panel">
+                    
+                    <!-- HUD Terminal Overlays -->
+                    <div class="absolute inset-0 z-10 pointer-events-none p-5 flex flex-col justify-between font-mono text-[9px] text-primary/80">
+                        <div class="flex justify-between items-start">
+                            <div class="flex items-center gap-2 bg-black/60 px-2 py-1 rounded border border-white/5">
+                                <span class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></span>
+                                <span class="tracking-widest">FEED: GG_YARD_CAM_01</span>
+                            </div>
+                            <div class="bg-black/60 px-2 py-1 rounded border border-white/5 tracking-wider">
+                                <span>STATUS: AUTOMATIC_OBSERVER</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Screen Reticle / Coordinate Grid -->
+                        <div class="absolute inset-0 flex items-center justify-center opacity-25">
+                            <div class="w-12 h-12 border border-dashed border-primary rounded-full flex items-center justify-center">
+                                <div class="w-1.5 h-1.5 bg-primary rounded-full"></div>
+                            </div>
+                            <div class="absolute w-24 h-[1px] bg-primary/45"></div>
+                            <div class="absolute h-24 w-[1px] bg-primary/45"></div>
+                            <!-- Crosshair Corner markings -->
+                            <span class="absolute top-[30%] left-[30%] text-[8px]">+</span>
+                            <span class="absolute top-[30%] right-[30%] text-[8px]">+</span>
+                            <span class="absolute bottom-[30%] left-[30%] text-[8px]">+</span>
+                            <span class="absolute bottom-[30%] right-[30%] text-[8px]">+</span>
+                        </div>
+                        
+                        <!-- HUD Bottom Stats -->
+                        <div class="flex justify-between items-end mt-auto">
+                            <div class="flex flex-col gap-0.5 bg-black/60 px-2 py-1 rounded border border-white/5">
+                                <span class="text-[7.5px] text-on-surface-variant/50">COORDINATES:</span>
+                                <span class="font-bold text-on-surface tracking-wider" id="hud-coordinates">X: 042.81 // Y: 911.05 // Z: 18.23</span>
+                            </div>
+                            <div class="flex flex-col gap-0.5 bg-black/60 px-2 py-1 rounded border border-white/5 text-right">
+                                <span class="text-[7.5px] text-on-surface-variant/50">SYSTEM LEVEL:</span>
+                                <span class="font-bold text-primary tracking-widest" id="hud-stage-num">STAGE I / IV</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Embed Frame -->
+                    <div class="relative aspect-video rounded-lg overflow-hidden bg-background dent-panel-inset">
+                        <video class="w-full h-full object-cover brightness-[0.7]" id="craftsmanship-video" playsinline muted>
+                            <source src="./hero_loop.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+                    </div>
+                </div>
+                
+                <!-- Time & Progress HUD bar -->
+                <div class="mt-4 flex justify-between items-center px-4 py-2.5 bg-[#161818]/90 border border-white/10 rounded-lg text-[11px] font-mono text-on-surface-variant/80">
+                    <div class="flex items-center gap-2">
+                        <span class="text-primary font-bold">TIMECODE:</span>
+                        <span id="hud-timestamp">00:00.00 / 00:00.00</span>
+                    </div>
+                    <div class="h-1.5 w-32 bg-black rounded-full overflow-hidden relative">
+                        <div class="h-full bg-primary transition-all duration-300 w-0" id="hud-progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scrolling Right Column: Interactive Process Cards -->
+            <div class="lg:col-span-6 flex flex-col gap-8 py-2">
+                <!-- Stage 1 -->
+                <div class="process-card p-6 bg-[#1f2020]/20 backdrop-blur-md rounded-xl border border-white/10 relative transition-all duration-500 group cursor-pointer hover:bg-surface-container-high/40" data-stage="0">
+                    <span class="technical-cross top-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross top-2 right-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 right-2 text-[9px]">+</span>
+                    
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-8 h-8 rounded bg-primary/10 border border-primary/20 flex items-center justify-center font-mono font-bold text-primary text-sm">01</div>
+                        <span class="text-label-sm uppercase tracking-widest text-primary font-mono">[ STAGE 01 // EXTRACTION ]</span>
+                    </div>
+                    <h3 class="text-headline-md font-headline-md text-on-surface mb-2 text-xl">Quarry Matrix Excavation</h3>
+                    <p class="text-body-md text-on-surface-variant text-sm leading-relaxed">
+                        Generational stone cutters identify optimal mineral matrices direct at global quarry reserves. Precision drilling and hydraulic splitting isolate raw blocks with minimized physical stress.
+                    </p>
+                </div>
+                
+                <!-- Stage 2 -->
+                <div class="process-card p-6 bg-[#1f2020]/20 backdrop-blur-md rounded-xl border border-white/10 relative transition-all duration-500 group cursor-pointer hover:bg-surface-container-high/40" data-stage="1">
+                    <span class="technical-cross top-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross top-2 right-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 right-2 text-[9px]">+</span>
+                    
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-8 h-8 rounded bg-primary/10 border border-primary/20 flex items-center justify-center font-mono font-bold text-primary text-sm">02</div>
+                        <span class="text-label-sm uppercase tracking-widest text-primary font-mono">[ STAGE 02 // SLICING ]</span>
+                    </div>
+                    <h3 class="text-headline-md font-headline-md text-on-surface mb-2 text-xl">Computerized Gangsaw Calibrating</h3>
+                    <p class="text-body-md text-on-surface-variant text-sm leading-relaxed">
+                        Massive blocks are mounted on automated Italian multi-blade saws. A continuous stream of steel shot abrasives slices blocks into clean, uniform slabs with ultra-fine thickness tolerances.
+                    </p>
+                </div>
+                
+                <!-- Stage 3 -->
+                <div class="process-card p-6 bg-[#1f2020]/20 backdrop-blur-md rounded-xl border border-white/10 relative transition-all duration-500 group cursor-pointer hover:bg-surface-container-high/40" data-stage="2">
+                    <span class="technical-cross top-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross top-2 right-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 right-2 text-[9px]">+</span>
+                    
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-8 h-8 rounded bg-primary/10 border border-primary/20 flex items-center justify-center font-mono font-bold text-primary text-sm">03</div>
+                        <span class="text-label-sm uppercase tracking-widest text-primary font-mono">[ STAGE 03 // REFLECTION ]</span>
+                    </div>
+                    <h3 class="text-headline-md font-headline-md text-on-surface mb-2 text-xl">Diamond Auto-Grinding & Glossing</h3>
+                    <p class="text-body-md text-on-surface-variant text-sm leading-relaxed">
+                        Slabs traverse a 24-head diamond grinding line. Successive grades of fine diamond abrasives strip away surface micro-cavities to unlock deep quartz reflectivity and rich color saturation.
+                    </p>
+                </div>
+                
+                <!-- Stage 4 -->
+                <div class="process-card p-6 bg-[#1f2020]/20 backdrop-blur-md rounded-xl border border-white/10 relative transition-all duration-500 group cursor-pointer hover:bg-surface-container-high/40" data-stage="3">
+                    <span class="technical-cross top-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross top-2 right-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 left-2 text-[9px]">+</span>
+                    <span class="technical-cross bottom-2 right-2 text-[9px]">+</span>
+                    
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-8 h-8 rounded bg-primary/10 border border-primary/20 flex items-center justify-center font-mono font-bold text-primary text-sm">04</div>
+                        <span class="text-label-sm uppercase tracking-widest text-primary font-mono">[ STAGE 04 // DISTRIBUTION ]</span>
+                    </div>
+                    <h3 class="text-headline-md font-headline-md text-on-surface mb-2 text-xl">Laser Inspection & Containment</h3>
+                    <p class="text-body-md text-on-surface-variant text-sm leading-relaxed">
+                        High-accuracy optical sensors scan for structural integrity. Slabs are color-matched and loaded into reinforced A-frame wooden containment structures for direct ocean freight container dispatch.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Dynamic Masonry / Spaces Inspired -->
+<section class="py-section-gap max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop bg-transparent" id="spaces" data-bg-video="./shipping_loop.mp4">
+<div class="text-center max-w-2xl mx-auto mb-stack-lg reveal-up">
+<span class="text-label-md text-primary tracking-wider uppercase block mb-2 font-mono">[ ARCHITECTURAL APPLICATIONS ]</span>
+<div class="shutter-container">
+    <h2 class="text-headline-lg font-headline-lg text-on-surface shutter-mask">Curated Spaces</h2>
+    <div class="laser-line"></div>
+</div>
+<p class="text-body-md text-on-surface-variant mt-4">
+            Witness our surfaces in highly defined environments, matching the creative intents of global custom workspace designers and private estate visionaries.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-7 group relative aspect-video overflow-hidden reveal-left img-container-kb rounded-lg border border-white/10 glow-hover">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+<img alt="Modern minimal kitchen with bookmatched granite island" class="absolute inset-0 w-full h-full object-cover img-ken-burns" src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+<div class="absolute inset-0 bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
+<span class="px-6 py-3 bg-background/90 text-primary text-label-md font-medium tracking-wider backdrop-blur-md border border-white/10 font-mono text-xs">[ VIEW CULINARY SUITES ]</span>
+</div>
+</div>
+<div class="md:col-span-5 group relative aspect-square md:aspect-auto overflow-hidden reveal-right img-container-kb rounded-lg border border-white/10 glow-hover">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+<img alt="Luxury corporate lobby clad in premium stone panels" class="absolute inset-0 w-full h-full object-cover img-ken-burns" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&amp;fit=crop&amp;w=1000&amp;q=80">
+<div class="absolute inset-0 bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
+<span class="px-6 py-3 bg-background/90 text-primary text-label-md font-medium tracking-wider backdrop-blur-md border border-white/10 font-mono text-xs">[ VIEW CORPORATE ATRIUMS ]</span>
+</div>
+</div>
+<div class="md:col-span-5 group relative aspect-square md:aspect-auto overflow-hidden reveal-left img-container-kb rounded-lg border border-white/10 glow-hover">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+<img alt="High-end master bath lined with exotic marble panels" class="absolute inset-0 w-full h-full object-cover img-ken-burns" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&amp;fit=crop&amp;w=1000&amp;q=80">
+<div class="absolute inset-0 bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
+<span class="px-6 py-3 bg-background/90 text-primary text-label-md font-medium tracking-wider backdrop-blur-md border border-white/10 font-mono text-xs">[ VIEW WELLNESS SUITES ]</span>
+</div>
+</div>
+<div class="md:col-span-7 group relative aspect-video overflow-hidden reveal-right img-container-kb rounded-lg border border-white/10 glow-hover">
+    <!-- Corner Crosses -->
+    <span class="technical-cross top-2 left-2">+</span>
+    <span class="technical-cross top-2 right-2">+</span>
+    <span class="technical-cross bottom-2 left-2">+</span>
+    <span class="technical-cross bottom-2 right-2">+</span>
+<img alt="Bespoke outdoor granite pool deck integration" class="absolute inset-0 w-full h-full object-cover img-ken-burns" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+<div class="absolute inset-0 bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
+<span class="px-6 py-3 bg-background/90 text-primary text-label-md font-medium tracking-wider backdrop-blur-md border border-white/10 font-mono text-xs">[ VIEW EXTERNAL FAÇADES ]</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Interactive Reveal Overlay / Heritage -->
+<section class="relative min-h-[600px] w-full flex items-center overflow-hidden parallax-wrapper" id="heritage" data-bg-video="./hero_loop.mp4">
+<img alt="Deep granite quarry dramatic background context" class="parallax-bg brightness-[0.25]" id="heritage-bg" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&amp;fit=crop&amp;w=2000&amp;q=80">
+<div class="relative z-10 max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop py-24 flex flex-col gap-stack-md text-left reveal-zoom bg-transparent">
+<span class="text-label-md text-primary tracking-wider uppercase block font-mono">[ ARCHITECTURAL HERITAGE ]</span>
+<div class="shutter-container">
+    <h2 class="text-display-lg font-display-lg text-on-surface max-w-2xl shutter-mask">Our Story</h2>
+    <div class="laser-line"></div>
+</div>
+<p class="text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+           For over 25 years, Guru Granite has transformed raw geological history into permanent fine art, bypassing distributors to harvest unique mineral matrices directly from premium global reserves. By merging the ancestral wisdom of generational stone cutters with state-of-the-art Italian laser engineering, we achieve sub-millimeter structural perfection while enforcing a strict ecological blueprint of low-impact extraction and closed-loop water recycling.
+        </p>
+<div class="border-l-2 border-primary pl-6 py-1 italic text-on-surface font-headline-md text-lg bg-transparent">
+<span>"We don't just occupy architectural space—we define it for generations to come."</span>
+</div>
+</div>
+</section>
+
+<!-- Lead Generation Container / Inquiries Contact Form -->
+<section class="py-section-gap max-w-4xl mx-auto px-margin-mobile bg-transparent" id="inquire" data-bg-video="./shipping_loop.mp4">
+<div class="bg-surface-container-high rounded-xl p-8 md:p-12 border border-white/10 shadow-2xl reveal-up dent-panel">
+<div class="text-center max-w-xl mx-auto mb-stack-md bg-transparent">
+<div class="shutter-container">
+    <h3 class="text-headline-lg font-headline-lg text-on-surface shutter-mask">Initiate a Project</h3>
+    <div class="laser-line"></div>
+</div>
+<p class="text-body-md text-on-surface-variant mt-2">
+                Enlist our project advisory division to locate specific architectural lots, verify container pricing formulas, or request custom cut-to-size technical configurations.
+            </p>
+</div>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-transparent" id="project-form" onsubmit="event.preventDefault();">
+<div class="flex flex-col gap-2 transform hover:scale-[1.01] transition-transform duration-200">
+<label class="text-label-sm font-medium text-on-surface-variant uppercase tracking-wider font-mono text-[10px]" for="client-name">Full Name</label>
+<input class="h-12 bg-surface-container-low border border-white/10 px-4 text-on-surface text-body-md focus:outline-none focus:border-primary transition-colors rounded" id="client-name" placeholder="Alexander Wright" required="" type="text">
+</div>
+<div class="flex flex-col gap-2 transform hover:scale-[1.01] transition-transform duration-200">
+<label class="text-label-sm font-medium text-on-surface-variant uppercase tracking-wider font-mono text-[10px]" for="client-email">Email Address</label>
+<input class="h-12 bg-surface-container-low border border-white/10 px-4 text-on-surface text-body-md focus:outline-none focus:border-primary transition-colors rounded" id="client-email" placeholder="alex@architects.com" required="" type="email">
+</div>
+<div class="md:col-span-2 flex flex-col gap-2 transform hover:scale-[1.01] transition-transform duration-200">
+<label class="text-label-sm font-medium text-on-surface-variant uppercase tracking-wider font-mono text-[10px]" for="project-type">Primary Domain Interest</label>
+<select class="h-12 bg-surface-container-low border border-white/10 px-4 text-on-surface text-body-md focus:outline-none focus:border-primary transition-colors rounded" id="project-type">
+<option value="residential">Private Residential Customization</option>
+<option value="commercial">Commercial Real Estate Infrastructure</option>
+<option value="wholesale">Container Volume Wholesale Purchasing</option>
+<option value="other">Bespoke Artifact Detailing</option>
+</select>
+</div>
+<div class="md:col-span-2 flex flex-col gap-2 transform hover:scale-[1.01] transition-transform duration-200">
+<label class="text-label-sm font-medium text-on-surface-variant uppercase tracking-wider font-mono text-[10px]" for="message">Scope Parameters &amp; Quantity Estimate</label>
+<textarea class="h-32 bg-surface-container-low border border-white/10 p-4 text-on-surface text-body-md focus:outline-none focus:border-primary transition-colors resize-none rounded" id="message" placeholder="Please mention dimensional thickness preferences (e.g. 20mm, 30mm) or slab match configurations required..."></textarea>
+</div>
+<div class="md:col-span-2 text-center mt-2">
+<button class="w-full sm:w-auto inline-flex items-center justify-center px-12 h-14 bg-primary text-on-primary text-label-md font-semibold transition-all duration-300 hover:bg-primary-container shadow-xl hover:scale-105" type="submit">
+                    Submit Request
+                </button>
+</div>
+</form>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-white/10 py-16 text-on-surface-variant relative z-10">
+    <span class="technical-cross top-4 left-margin-desktop text-xs">+</span>
+    <span class="technical-cross top-4 right-margin-desktop text-xs">+</span>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="flex flex-col gap-4 reveal-up">
+<span class="text-headline-md font-headline-md text-primary tracking-wide">Guru Granite</span>
+<p class="text-body-md text-sm">
+                Defining high-luxury interior structural boundaries through premium mineral mediums.
+            </p>
+</div>
+<div class="flex flex-col gap-4 reveal-up" style="transition-delay: 0.1s;">
+<h5 class="text-label-md font-semibold text-on-surface uppercase tracking-widest font-mono text-xs">[ GLOBAL VAULTS ]</h5>
+<ul class="flex flex-col gap-2 text-body-md text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Carrara Elite, Italy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Khammam Quartz Blocks, India</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Espirito Santo Exotic Reserve, Brazil</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-4 reveal-up" style="transition-delay: 0.2s;">
+<h5 class="text-label-md font-semibold text-on-surface uppercase tracking-widest font-mono text-xs">[ RESOURCE PORTS ]</h5>
+<ul class="flex flex-col gap-2 text-body-md text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Technical Specifications</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Material Classification Docs</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Slab Care & Maintenance</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-4 reveal-up" style="transition-delay: 0.3s;">
+<h5 class="text-label-md font-semibold text-on-surface uppercase tracking-widest font-mono text-xs">[ INQUIRIES & DISPATCH ]</h5>
+<p class="text-body-md text-sm">
+                Bargur, Krishnagiri, Tamil Nadu - 635 104,<br>
+                India
+            </p>
+            <div class="flex flex-col gap-1 text-sm font-mono mt-1">
+                <span>PH: +91 944 944 5585</span>
+                <span>EMAIL: info@gurugranites.com</span>
+            </div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono">
+<p>© 2026 Guru Granite Group. Geological masterpieces verified for permanence.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-colors" href="#">Privacy Governance</a>
+<a class="hover:text-primary transition-colors" href="#">Supply Chain Protocols</a>
+<a class="hover:text-primary transition-colors" href="#">Designed By TECHORA</a>
+</div>
+</div>
+</footer>
+
+<!-- UI Scripts -->
+<script>
+    // --- Navigation Interactivity ---
+    const navbar = document.getElementById('navbar');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const drawerCloseBtn = document.getElementById('drawer-close-btn');
+    const drawerOverlay = document.getElementById('drawer-overlay');
+    const drawerContent = document.getElementById('drawer-content');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('bg-background/95', 'shadow-lg', 'h-16');
+            navbar.classList.remove('h-20');
+        } else {
+            navbar.classList.remove('bg-background/95', 'shadow-lg', 'h-16');
+            navbar.classList.add('h-20');
+        }
+    });
+
+    function openDrawer() {
+        mobileDrawer.classList.remove('hidden');
+        setTimeout(() => {
+            drawerOverlay.classList.remove('opacity-0');
+            drawerOverlay.classList.add('opacity-100');
+            drawerContent.classList.remove('translate-x-full');
+            drawerContent.classList.add('translate-x-0');
+        }, 10);
+    }
+
+    function closeDrawer() {
+        drawerOverlay.classList.remove('opacity-100');
+        drawerOverlay.classList.add('opacity-0');
+        drawerContent.classList.remove('translate-x-0');
+        drawerContent.classList.add('translate-x-full');
+        setTimeout(() => {
+            mobileDrawer.classList.add('hidden');
+        }, 300);
+    }
+
+    mobileMenuBtn.addEventListener('click', openDrawer);
+    drawerCloseBtn.addEventListener('click', closeDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+
+    // --- High-Performance Parallax Engine ---
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const parallaxElements = document.querySelectorAll('.parallax-bg');
+        
+        parallaxElements.forEach(el => {
+            const parent = el.parentElement;
+            const parentTop = parent.offsetTop;
+            const parentHeight = parent.offsetHeight;
+            
+            if (scrolled + window.innerHeight >= parentTop && scrolled <= parentTop + parentHeight) {
+                const speed = 0.4;
+                const yPos = (scrolled - parentTop) * speed;
+                el.style.transform = `translate3d(0, ${yPos}px, 0)`;
+            }
+        });
+    });
+
+    // --- Global Background Video Cross-Fade Engine ---
+    const globalBgVideo = document.getElementById('global-bg-video');
+    const sectionsWithVideo = document.querySelectorAll('section[data-bg-video]');
+    
+    let currentVideoSrc = "";
+    let transitionTimeout = null;
+    
+    function changeGlobalBgVideo(src) {
+        if (src === currentVideoSrc) return;
+        currentVideoSrc = src;
+        
+        // Dynamic opacity fade transition
+        globalBgVideo.classList.add('opacity-0');
+        globalBgVideo.classList.remove('opacity-100');
+        
+        clearTimeout(transitionTimeout);
+        transitionTimeout = setTimeout(() => {
+            globalBgVideo.src = src;
+            globalBgVideo.load();
+            globalBgVideo.play().then(() => {
+                globalBgVideo.classList.remove('opacity-0');
+                globalBgVideo.classList.add('opacity-100');
+            }).catch(err => {
+                console.log("Global bg video autoplay confirmed after click: ", err);
+            });
+        }, 800); // matches transition speed
+    }
+
+    // --- Scroll-Linked Shutter Laser Scan & Video Background Trigger ---
+    const sectionObserverOptions = {
+        root: null,
+        rootMargin: '-30% 0px -40% 0px',
+        threshold: 0.1
+    };
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Trigger Shutter reveal on the headings inside the intersecting section
+                const shutterMasks = entry.target.querySelectorAll('.shutter-mask');
+                shutterMasks.forEach(mask => {
+                    mask.classList.add('revealed');
+                });
+                
+                // Trigger background video change
+                const targetBgVideo = entry.target.getAttribute('data-bg-video');
+                if (targetBgVideo) {
+                    changeGlobalBgVideo(targetBgVideo);
+                }
+            }
+        });
+    }, sectionObserverOptions);
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Observe all sections containing background videos
+        const animatedSections = document.querySelectorAll('section');
+        animatedSections.forEach(sec => sectionObserver.observe(sec));
+    });
+
+    // --- Dynamic Scroll-Trigger Intersection Observer for generic animations ---
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.12
+    };
+
+    const animateObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+            }
+        });
+    }, observerOptions);
+
+    const animationTargets = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-zoom');
+    animationTargets.forEach(target => animateObserver.observe(target));
+
+    // --- Craftsmanship Local Pinned Panel Engine ---
+    const video = document.getElementById('craftsmanship-video');
+    const processCards = document.querySelectorAll('.process-card');
+    const hudCoordinates = document.getElementById('hud-coordinates');
+    const hudStageNum = document.getElementById('hud-stage-num');
+    const hudTimestamp = document.getElementById('hud-timestamp');
+    const hudProgressBar = document.getElementById('hud-progress-bar');
+    
+    // GPS / HUD Coordinate Matrix mappings
+    const coordinates = [
+        "X: 042.81 // Y: 911.05 // Z: 18.23",
+        "X: 184.50 // Y: 432.22 // Z: 02.40",
+        "X: 309.11 // Y: 088.45 // Z: -12.11",
+        "X: 521.68 // Y: 601.73 // Z: 04.99"
+    ];
+    
+    // Local video loop mapping (matched to the global background video loops)
+    const localVideoUrls = [
+        "./hero_loop.mp4",
+        "./slicing_loop.mp4",
+        "./polishing_loop.mp4",
+        "./shipping_loop.mp4"
+    ];
+    
+    function updateHudProgress() {
+        if (!video.duration) return;
+        const current = video.currentTime;
+        const duration = video.duration;
+        
+        const formatTime = (time) => {
+            const m = Math.floor(time / 60).toString().padStart(2, '0');
+            const s = Math.floor(time % 60).toString().padStart(2, '0');
+            const ms = Math.floor((time % 1) * 100).toString().padStart(2, '0');
+            return `${m}:${s}.${ms}`;
+        };
+        
+        hudTimestamp.textContent = `${formatTime(current)} / ${formatTime(duration)}`;
+        hudProgressBar.style.width = `${(current / duration) * 100}%`;
+    }
+    
+    video.addEventListener('timeupdate', updateHudProgress);
+    
+    // Local section observers to track active process card
+    const cardObserverOptions = {
+        root: null,
+        rootMargin: '-25% 0px -35% 0px',
+        threshold: 0.3
+    };
+    
+    const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const stageIndex = parseInt(entry.target.getAttribute('data-stage'), 10);
+                activateStage(stageIndex);
+            }
+        });
+    }, cardObserverOptions);
+    
+    processCards.forEach(card => cardObserver.observe(card));
+    
+    // Fallback scroll listener for real-time card centering
+    window.addEventListener('scroll', () => {
+        let activeIndex = 0;
+        let minDistance = Infinity;
+        
+        processCards.forEach((card, index) => {
+            const rect = card.getBoundingClientRect();
+            const cardCenter = rect.top + rect.height / 2;
+            const viewportCenter = window.innerHeight / 2;
+            const distance = Math.abs(cardCenter - viewportCenter);
+            
+            if (distance < minDistance) {
+                minDistance = distance;
+                activeIndex = index;
+            }
+        });
+        
+        const craftsmanshipSection = document.getElementById('craftsmanship');
+        const cRect = craftsmanshipSection.getBoundingClientRect();
+        if (cRect.top < window.innerHeight && cRect.bottom > 0) {
+            activateStage(activeIndex);
+        }
+    });
+    
+    let currentActiveStage = -1;
+    let seekTimeout = null;
+    
+    function activateStage(index) {
+        if (index === currentActiveStage) return;
+        currentActiveStage = index;
+        
+        // Highlight active card
+        processCards.forEach((card, idx) => {
+            if (idx === index) {
+                card.classList.add('bg-primary/5', 'border-primary', 'shadow-[0_0_15px_rgba(233,193,118,0.15)]');
+                card.classList.remove('bg-[#1f2020]/20', 'border-white/10');
+            } else {
+                card.classList.remove('bg-primary/5', 'border-primary', 'shadow-[0_0_15px_rgba(233,193,118,0.15)]');
+                card.classList.add('bg-[#1f2020]/20', 'border-white/10');
+            }
+        });
+        
+        // Update local HUD
+        hudCoordinates.textContent = coordinates[index];
+        hudStageNum.textContent = `STAGE ${['I', 'II', 'III', 'IV'][index]} / IV`;
+        
+        // Seek local HUD screen
+        clearTimeout(seekTimeout);
+        seekTimeout = setTimeout(() => {
+            video.src = localVideoUrls[index];
+            video.loop = true;
+            video.load();
+            video.play().catch(err => {
+                console.log("Local panel play confirmations: ", err);
+            });
+        }, 150);
+    }
+    
+    // Card clicks
+    processCards.forEach((card, idx) => {
+        card.addEventListener('click', () => {
+            activateStage(idx);
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+    });
+</script>
+</body></html>
